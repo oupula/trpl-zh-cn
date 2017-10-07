@@ -1,9 +1,5 @@
 ## 处理环境变量
 
-> [ch12-05-working-with-environment-variables.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch12-05-working-with-environment-variables.md)
-> <br>
-> commit adababc48956f4d39c97c8b6fc14a104d90e20dc
-
 我们将用一个额外的功能来改进我们的工具：一个通过环境变量启用的大小写不敏感搜索的选项。我们可以将其设计为一个命令行参数并要求用户每次需要时都加上它，不过相反我们将使用环境变量。这允许用户设置环境变量一次之后在整个终端会话中所有的搜索都将是大小写不敏感的。
 
 ### 编写一个大小写不敏感 `search` 函数的失败测试

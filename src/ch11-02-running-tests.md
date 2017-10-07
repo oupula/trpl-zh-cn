@@ -1,9 +1,5 @@
 ## 运行测试
 
-> [ch11-02-running-tests.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch11-02-running-tests.md)
-> <br>
-> commit db08b34db5f1c78b4866b391c802344ec94ecc38
-
 就像 `cargo run` 会编译代码并运行生成的二进制文件一样，`cargo test` 在测试模式下编译代码并运行生成的测试二进制文件。这里有一些选项可以用来改变 `cargo test` 的默认行为。例如，`cargo test` 生成的二进制文件的默认行为是并行的运行所有测试，并捕获测试运行过程中产生的输出避免他们被显示出来，使得阅读测试结果相关的内容变得更容易。你可以指定命令行参数来改变这些默认行为。
 
 这些选项的一部分可以传递给 `cargo test`，而另一些则需要传递给生成的测试二进制文件。为了分隔两种类型的参数，首先列出传递给 `cargo test` 的参数，接着是分隔符 `--`，再之后是传递给测试二进制文件的参数。运行 `cargo test --help` 会告诉你 `cargo test` 的相关参数，而运行 `cargo test -- --help` 则会告诉你位于分隔符 `--` 之后的相关参数。

@@ -1,9 +1,5 @@
 ## `panic!` 与不可恢复的错误
 
-> [ch09-01-unrecoverable-errors-with-panic.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch09-01-unrecoverable-errors-with-panic.md)
-> <br>
-> commit 8d24b2a5e61b4eea109d26e38d2144408ae44e53
-
 突然有一天，糟糕的事情发生了，而你对此束手无策。对于这种情况，Rust 有 `panic!`宏。当执行这个宏时，程序会打印出一个错误信息，展开并清理栈数据，然后接着退出。出现这种情况的场景通常是检测到一些类型的 bug 而且程序员并不清楚该如何处理它。
 
 > ### Panic 中的栈展开与终止

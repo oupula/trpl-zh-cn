@@ -1,9 +1,5 @@
 ## 为使用不同类型的值而设计的 trait 对象
 
-> [ch17-02-trait-objects.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch17-02-trait-objects.md)
-> <br>
-> commit 67876e3ef5323ce9d394f3ea6b08cb3d173d9ba9
-
  在第八章中，我们谈到了 vector 只能存储同种类型元素的局限。在列表 8-1 中有一个例子，其中定义了一个拥有分别存放整型、浮点型和文本型成员的枚举类型 `SpreadsheetCell`，使用这个枚举的 vector 可以在每一个单元格（cell）中储存不同类型的数据，并使得 vector 整体仍然代表一行（row）单元格。这当编译代码时就知道希望可以交替使用的类型为固定集合的情况下是可行的。
 
 <!-- The code example I want to reference did not have a listing number; it's

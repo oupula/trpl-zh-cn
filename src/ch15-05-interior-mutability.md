@@ -1,9 +1,5 @@
 ## `RefCell<T>`和内部可变性模式
 
-> [ch15-05-interior-mutability.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch15-05-interior-mutability.md)
-> <br>
-> commit 3f2a1bd8dbb19cc48b210fc4fb35c305c8d81b56
-
 **内部可变性**（*Interior mutability*）是 Rust 中的一个设计模式，它允许你即使在有不可变引用时改变数据，这通常是借用规则所不允许。内部可变性模式涉及到在数据结构中使用`unsafe`代码来模糊 Rust 通常的可变性和借用规则。我们还未讲到不安全代码；第十九章会学习他们。内部可变性模式用于当你可以确保代码在运行时也会遵守借用规则，哪怕编译器也不能保证的情况。引入的`unsafe`代码将被封装进安全的 API 中，而外部类型仍然是不可变的。
 
 让我们通过遵循内部可变性模式的`RefCell<T>`类型来开始探索。

@@ -1,9 +1,5 @@
 ## 改进 I/O 项目
 
-> [ch13-03-improving-our-io-project.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch13-03-improving-our-io-project.md)
-> <br>
-> commit 714be7f0d6b2f6110afe8808a7f528f9eae75c61
-
 我们可以使用迭代器来改进第十二章中 I/O 项目的实现来使得代码更简洁明了。让我们看看迭代器如何能够改进 `Config::new` 函数和 `search` 函数的实现。
 
 ### 使用迭代器并去掉 `clone`

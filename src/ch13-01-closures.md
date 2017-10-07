@@ -1,9 +1,5 @@
 ## 闭包：可以捕获环境的匿名函数
 
-> [ch13-01-closures.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch13-01-closures.md)
-> <br>
-> commit 56352c28cf3fe0402fa5a7cba73890e314d720eb
-
 Rust 的闭包是可以保存进变量或作为参数传递给其他函数的匿名函数。可以在一个地方创建闭包，然后在以不同的上下文中执行闭包运算。不同于函数，闭包允许捕获调用者作用域中的值。我们将展示闭包的这些功能如何复用代码和自定义行为。
 
 ### 使用闭包创建行为的抽象

@@ -1,9 +1,5 @@
 ## `Box<T>` 在堆上存储数据，并且可确定大小
 
-> [ch15-01-box.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch15-01-box.md)
-> <br>
-> commit 348d78235faa10375ce5a3554e2c34d3275c174f
-
 最简单直接的智能指针是 *box*，它的类型是 `Box<T>`。 box 允许你将一个值放在堆上（第四章介绍过栈与堆）。示例 15-1 展示了如何使用 box 在堆上储存一个`i32`：
 
 <span class="filename">文件名: src/main.rs</span>

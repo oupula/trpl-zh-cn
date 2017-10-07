@@ -1,9 +1,5 @@
 ## 高级函数与闭包
 
-> [ch19-05-advanced-functions-and-closures.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch19-05-advanced-functions-and-closures.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 最后让我们讨论一些有关函数和闭包的高级功能：函数指针、发散函数和返回值闭包。
 
 ### 函数指针

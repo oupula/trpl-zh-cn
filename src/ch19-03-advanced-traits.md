@@ -1,9 +1,5 @@
 ## 高级 trait
 
-> [ch19-03-advanced-traits.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch19-03-advanced-traits.md)
-> <br>
-> commit f8727711388b28eb2f5c852dd83fdbe6d22ab9bb
-
 第十章讲到了 trait，不过就像生命周期，我们并没有涉及所有的细节。现在我们更加了解 Rust 了，可以深入理解本质了。
 
 ### 关联类型

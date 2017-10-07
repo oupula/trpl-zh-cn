@@ -1,9 +1,5 @@
 ## `if let` 简单控制流
 
-> [ch06-03-if-let.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch06-03-if-let.md)
-> <br>
-> commit 3f2a1bd8dbb19cc48b210fc4fb35c305c8d81b56
-
 `if let` 语法让我们以一种不那么冗长的方式结合 `if` 和 `let`，来处理匹配一个模式的值而忽略其他的值。考虑示例 6-6 中的程序，它匹配一个 `Option<u8>` 值并只希望当值为三时执行代码：
 
 ```rust

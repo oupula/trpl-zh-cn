@@ -1,8 +1,5 @@
 ## `mod` 和文件系统
 
-> [ch07-01-mod-and-the-filesystem.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch07-01-mod-and-the-filesystem.md)
-> <br>
-> commit c6a9e77a1b1ed367e0a6d5dcd222589ad392a8ac
 
 我们将通过使用 Cargo 创建一个新项目来开始我们的模块之旅，不过不再创建一个二进制 crate，而是创建一个库 crate：一个其他人可以作为依赖导入的项目。第二章猜猜看游戏中作为依赖使用的 `rand` 就是这样的 crate。
 

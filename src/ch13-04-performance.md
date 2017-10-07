@@ -1,9 +1,5 @@
 ## 性能对比：循环 VS 迭代器
 
-> [ch13-04-performance.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch13-04-performance.md)
-> <br>
-> commit 40910f557c328858f230123d1234c1cb3029dda3
-
 为了决定使用哪个实现，我们需要知道哪个版本的 `search` 函数更快：直接使用 `for` 循环的版本还是使用迭代器的版本。
 
 我们运行了一个性能测试，通过将阿瑟·柯南·道尔的“福尔摩斯探案集”的全部内容加载进 `String` 并寻找其中的单词 “the”。如下是 `for` 循环版本和迭代器版本的 `search` 函数的性能测试结果：

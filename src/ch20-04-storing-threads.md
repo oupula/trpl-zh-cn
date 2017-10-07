@@ -1,9 +1,5 @@
 ## 创建线程池并储存线程
 
-> [ch20-04-storing-threads.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch20-04-storing-threads.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 之前的警告是因为在 `new` 和 `execute` 中没有对参数做任何操作。让我们用期望的实际行为实现他们。
 
 ### 验证池中的线程数

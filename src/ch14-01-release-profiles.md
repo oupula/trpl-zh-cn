@@ -1,9 +1,5 @@
 ## 发布配置
 
-> [ch14-01-release-profiles.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch14-01-release-profiles.md)
-> <br>
-> commit db6129a30d7c7baed34dd38dbc56f7ed8a66ae92
-
 在 Rust 中 **发布配置**（*release profiles*）是预定义的、可定制的带有不同选项的配置，他们允许程序员更多的控制代码编译的多种选项。每一个配置都彼此相互独立。
 
 Cargo 定义了四种有着良好默认值的可用于各自使用场景的配置。Cargo 根据运行的命令来选择不同的配置。不同命令所对应的配置如表格 14-1 所示：

@@ -1,9 +1,5 @@
 ## 设计线程池接口
 
-> [ch20-03-designing-the-interface.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch20-03-designing-the-interface.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 让我们讨论一下线程池看起来怎样。库作者们经常会发现，当尝试设计一些代码时，首先编写客户端接口确实有助于指导代码设计。以期望的调用方式来构建 API 代码的结构，接着在这个结构之内实现功能，而不是先实现功能再设计公有 API。
 
 类似于第十二章项目中使用的测试驱动开发。这里将要使用编译器驱动开发（Compiler Driven Development）。我们将编写调用所期望的函数的代码，接着依靠编译器告诉我们接下来需要修改什么。编译器错误信息会指导我们的实现。

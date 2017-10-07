@@ -1,9 +1,5 @@
 ## 慢请求如何影响吞吐率
 
-> [ch20-02-slow-requests.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch20-02-slow-requests.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 目前 server 会依次处理每一个请求。这对于向我们这样并不期望有非常大量请求的服务来说是可行的，不过随着程序变得更复杂，这样的串行处理并不是最优的。
 
 因为当前的程序顺序处理处理连接，在完成第一个连接的处理之前不会处理第二个连接。如果一个请求花费很长时间来处理，这段时间接收的请求则不得不等待这个长请求结束，即便这些新请求可以很快就处理完。让我们实际尝试一下。

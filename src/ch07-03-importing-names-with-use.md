@@ -1,9 +1,5 @@
 ## 导入命名
 
-> [ch07-03-importing-names-with-use.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch07-03-importing-names-with-use.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 我们已经讲到了如何使用模块名称作为调用的一部分，来调用模块中的函数，如示例 7-6 中所示的 `nested_modules` 函数调用。
 
 <span class="filename">文件名: src/main.rs</span>

@@ -1,9 +1,5 @@
 ## 共享状态并发
 
-> [ch16-03-shared-state.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch16-03-shared-state.md)
-> <br>
-> commit 9df612e93e038b05fc959db393c15a5402033f47
-
 虽然消息传递是一个很好的处理并发的方式，但并不是唯一的一个。再次考虑一下它的口号：
 
 > Do not communicate by sharing memory; instead, share memory by

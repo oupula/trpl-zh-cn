@@ -1,9 +1,5 @@
 ## 变量和可变性
 
-> [ch03-01-variables-and-mutability.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch03-01-variables-and-mutability.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 第二章中提到过，变量默认是 **不可变**（*immutable*）的。这是利用 Rust 安全和简单并发的优势编写代码一大助力。不过，变量仍然有可变的选项。让我们探讨一下 Rust 拥抱不可变性的原因及方法，以及何时你不想使用不可变性。
 
 当变量不可变时，意味着一旦值被绑定上一个名称，你就不能改变这个值。作为说明，通过 `cargo new --bin variables` 在 *projects* 目录生成一个叫做 *variables* 的新项目。

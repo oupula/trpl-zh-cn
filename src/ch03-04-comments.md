@@ -1,9 +1,5 @@
 ## 注释
 
-> [ch03-04-comments.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch03-04-comments.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 所有编程语言都力求使他们的代码易于理解，不过有时需要提供额外的解释。在这种情况下，程序员在源码中留下记录，或者 **注释**（*comments*），编译器会忽略他们不过其他阅读代码的人可能会用得上。
 
 这是一个注释的例子：

@@ -1,9 +1,5 @@
 ## 输出到`stderr`而不是`stdout`
 
-> [ch12-06-writing-to-stderr-instead-of-stdout.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch12-06-writing-to-stderr-instead-of-stdout.md)
-> <br>
-> commit 7db14aa689553706198ffcb11a8c60b478e752fe
-
 目前为止，我们将所有的输出都 `println!` 到了终端。大部分终端都提供了两种输出：**标准输出**（*standard output*）对应大部分信息（有时在代码中使用缩写 `stdout`），**标准错误**（*standard error*）则用于错误信息（`stderr`）。这种区别允许用户选择将程序正常输出定向到一个文件中并仍将错误信息打印到屏幕上。
 
 但是 `println!` 函数只能够打印到标准输出，所以我们必需使用其他方法来打印到标准错误。

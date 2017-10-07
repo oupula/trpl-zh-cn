@@ -1,9 +1,5 @@
 ## 接受命令行参数
 
-> [ch12-01-accepting-command-line-arguments.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch12-01-accepting-command-line-arguments.md)
-> <br>
-> commit 50658e654fb6a9208b635179cdd79939aa0ab133
-
 一如之前使用 `cargo new` 新建一个项目。我们称之为 `minigrep` 以便与可能已经安装在系统上的`grep`工具相区别：
 
 ```text

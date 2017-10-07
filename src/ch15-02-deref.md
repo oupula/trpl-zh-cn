@@ -1,9 +1,5 @@
 ## `Deref` Trait 允许通过引用访问数据
 
-> [ch15-02-deref.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch15-02-deref.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 第一个智能指针相关的重要 trait 是 `Deref`，它允许我们重载 `*`，解引用运算符（不同于乘法运算符或全局引用运算符）。重载智能指针的 `*` 能使访问其持有的数据更为方便，在本章结束前谈到解引用强制多态（deref coercions）时我们会说明方便意味着什么。
 
 第八章的哈希 map 的 “根据旧值更新一个值” 部分简要的提到了解引用运算符。当时有一个可变引用，而我们希望改变这个引用所指向的值。为此，首先我们必须解引用。这是另一个使用 `i32` 值引用的例子：

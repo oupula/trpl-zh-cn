@@ -1,9 +1,5 @@
 # 通用集合类型
 
-> [ch08-00-common-collections.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch08-00-common-collections.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 Rust 标准库中包含一系列被称为 **集合**（*collections*）的非常有用的数据结构。大部分其他数据类型都代表一个特定的值，不过集合可以包含多个值。不同于内建的数组和元组类型，这些集合指向的数据是储存在堆上的，这意味着数据的数量不必在编译时就可知并且可以随着程序的运行增长或缩小。每种集合都有着不同能力和代价，而为所处的场景选择合适的集合则是你将要始终发展的技能。在这一章里，我们将详细的了解三个在 Rust 程序中被广泛使用的集合：
 
 * *vector* 允许我们一个挨着一个地储存一系列数量可变的值

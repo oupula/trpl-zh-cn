@@ -1,9 +1,5 @@
 ## Slices
 
-> [ch04-03-slices.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch04-03-slices.md)
-> <br>
-> commit df9e3b922335ec2c76b6c1c4ede31b7742103c48
-
 另一个没有所有权的数据类型是 *slice*。slice 允许你引用集合中一段连续的元素序列，而不用引用整个集合。
 
 这里有一个小的编程问题：编写一个获取一个字符串并返回它在其中找到的第一个单词的函数。如果函数没有在字符串中找到一个空格，就意味着整个字符串是一个单词，所以整个字符串都应该返回。

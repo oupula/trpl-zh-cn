@@ -1,9 +1,5 @@
 # 一个 I/O 项目：构建一个命令行程序
 
-> [ch12-00-an-io-project.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch12-00-an-io-project.md)
-> <br>
-> commit 096db3d06b25692ee701750e1f995ba00d0f5c55
-
 本章既是一个目前所学的很多技能的概括，也是一个更多标准库功能的探索。我们将构建一个与文件和命令行输入/输出交互的命令行工具来练习现在一些你已经掌握的 Rust 技能。
 
 Rust 的运行速度、安全性、**单二进制文件** 输出和跨平台支持使其成为创建命令行程序的绝佳选择，所以我们的项目将创建一个我们自己版本的经典命令行工具：`grep`。grep 是 “**G**lobally search a **R**egular **E**xpression and **P**rint.” 的首字母缩写。`grep` 最简单的使用场景是在特定文件中搜索指定字符串。为此，`grep` 获取一个文件名和一个字符串作为参数，接着读取文件并找到其中包含字符串参数的行，然后打印出这些行。

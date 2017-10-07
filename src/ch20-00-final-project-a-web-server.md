@@ -1,9 +1,5 @@
 # 最后的项目: 构建多线程 web server
 
-> [ch20-00-final-project-a-web-server.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch20-00-final-project-a-web-server.md)
-> <br>
-> commit 08e50d5e147ad290d88efd5c58365000723626df
-
 这是一次漫长的旅途，不过我们做到了！这一章便是本书的结束。离别是如此甜蜜的悲伤。不过在我们结束之前，再来一起构建另一个项目，来展示最后几章所学，同时复习更早的章节。
 
 下面就是我们将要做的：一个简单的 web server：

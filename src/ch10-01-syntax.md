@@ -1,9 +1,5 @@
 ## 泛型数据类型
 
-> [ch10-01-syntax.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch10-01-syntax.md)
-> <br>
-> commit 56352c28cf3fe0402fa5a7cba73890e314d720eb
-
 泛型用于通常我们放置类型的位置，比如函数签名或结构体，允许我们创建可以代替许多具体数据类型的结构体定义。让我们看看如何使用泛型定义函数、结构体、枚举和方法，并且在本部分的结尾我们会讨论泛型代码的性能。
 
 ### 在函数定义中使用泛型

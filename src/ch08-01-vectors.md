@@ -1,9 +1,5 @@
 ## vector
 
-> [ch08-01-vectors.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch08-01-vectors.md)
-> <br>
-> commit 6c24544ba718bce0755bdaf03423af86280051d5
-
 我们要讲到的第一个类型是`Vec<T>`，也被称为 *vector*。vector 允许我们在一个单独的数据结构中储存多于一个值，它在内存中彼此相邻的排列所有的值。vector 只能储存相同类型的值。他们在拥有一系列项的场景下非常实用，例如文件中的文本行或是购物车中商品的价格。
 
 ### 新建 vector

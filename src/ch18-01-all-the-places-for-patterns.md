@@ -1,9 +1,5 @@
 ## 所有可能会用到模式的位置
 
-> [ch18-01-all-the-places-for-patterns.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch18-01-all-the-places-for-patterns.md)
-> <br>
-> commit 4ca9e513e532a4d229ab5af7dfcc567129623bf4
-
 模式出现在 Rust 的很多地方。你已经在不经意间使用了很多模式！本部分是一个所有有效模式位置的参考。
 
 ### `match` 分支

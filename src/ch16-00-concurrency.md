@@ -1,9 +1,5 @@
 # 无畏并发
 
-> [ch16-00-concurrency.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch16-00-concurrency.md)
-> <br>
-> commit da15de39eaabd50100d6fa662c653169254d9175
-
 确保内存安全并不是 Rust 的唯一目标：更好的处理并发和并行编程一直是 Rust 的另一个主要目标。
 **并发编程**（concurrent programming）代表程序的不同部分相互独立的执行，而**并行编程**代表程序不同部分同时执行，这两个概念在计算机拥有更多处理器可供程序利用时变得更加重要。由于历史的原因，在此类上下文中编程一直是困难且容易出错的：Rust 希望能改变这一点。
 

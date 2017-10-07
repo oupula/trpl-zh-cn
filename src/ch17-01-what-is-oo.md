@@ -1,9 +1,5 @@
 ## 什么是面向对象？
 
-> [ch17-01-what-is-oo.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch17-01-what-is-oo.md)
-> <br>
-> commit 2a9b2a1b019ad6d4832ff3e56fbcba5be68b250e
-
 关于一个语言被称为面向对象所需的功能，在编程社区内并未达成一致意见。Rust 被很多不同的编程范式影响；我们探索了十三章提到的来自函数式编程的特性。面向对象编程语言所共享的一些特性往往是对象、封装和继承。让我们看一下这每一个概念的含义以及 Rust 是否支持他们。
 
 ### 对象包含数据和行为

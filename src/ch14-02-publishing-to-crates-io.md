@@ -1,9 +1,5 @@
 ## 将 crate 发布到 Crates.io
 
-> [ch14-02-publishing-to-crates-io.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch14-02-publishing-to-crates-io.md)
-> <br>
-> commit 56352c28cf3fe0402fa5a7cba73890e314d720eb
-
 我们曾经在项目中增加 crates.io 上的包作为依赖，不过你也可以通过发布自己的包来向它人分享代码。Crates.io 用来分发包的源代码，所以它主要托管开源代码。
 
 Rust 和 Cargo 有一些帮助它人更方便找到和使用你发布的包的功能。我们将介绍一些这样的功能，接着讲到如何发布一个包。

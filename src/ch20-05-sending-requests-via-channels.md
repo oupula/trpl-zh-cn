@@ -1,9 +1,5 @@
 ## 使用通道向线程发送请求
 
-> [ch20-05-sending-requests-via-channels.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch20-05-sending-requests-via-channels.md)
-> <br>
-> commit 2e269ff82193fd65df8a87c06561d74b51ac02f7
-
 下一个需要解决的问题是（线程中的）闭包完全没有做任何工作。我们一直在绕过获取 `execute` 方法中实际期望执行的闭包的问题，不过看起来在创建 `ThreadPool` 时就需要知道实际的闭包。
 
 不过考虑一下真正需要做的：我们希望刚创建的 `Worker` 结构体能够从 `ThreadPool` 的队列中获取任务，并在线程中执行他们。

@@ -1,9 +1,5 @@
 ## 控制流
 
-> [ch03-05-control-flow.md](https://github.com/rust-lang/book/blob/master/src/ch03-05-control-flow.md)
-> <br>
-> commit 2e269ff82193fd65df8a87c06561d74b51ac02f7
-
 通过条件是不是为真来决定是否执行某些代码，或者根据条件是否为真来重复运行一段代码是大部分编程语言的基本组成部分。Rust 代码中最常见的用来控制执行流的结构是 `if` 表达式和循环。
 
 ### `if` 表达式

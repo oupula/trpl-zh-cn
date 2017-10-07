@@ -1,8 +1,5 @@
 ## 使用 `pub` 控制可见性
 
-> [ch07-02-controlling-visibility-with-pub.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch07-02-controlling-visibility-with-pub.md)
-> <br>
-> commit 0a4ed5875aeba78a81ae03ac73aeb84d2e2aca86
 
 我们通过将 `network` 和 `network::server` 的代码分别移动到 *src/network/mod.rs* 和 *src/network/server.rs* 文件中解决了示例 7-4 中出现的错误信息。现在，`cargo build` 能够构建我们的项目，不过仍然有一些警告信息，表示 `client::connect`、`network::connect` 和`network::server::connect` 函数没有被使用：
 

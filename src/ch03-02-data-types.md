@@ -1,9 +1,5 @@
 ## 数据类型
 
-> [ch03-02-data-types.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch03-02-data-types.md)
-> <br>
-> commit f4bce88a0f4c09aaf0c996021729c6d42907bc2a
-
 在 Rust 中，任何值都属于一种明确的 **类型**（*type*），这告诉了 Rust 它被指定了何种数据，以便明确其处理方式。我们将分两部分探讨一些内建类型：标量（scalar）和复合（compound）。
 
 Rust 是 **静态类型**（*statically typed*）语言，也就是说在编译时就必须知道所有变量的类型，这一认知将贯穿整个章节，请在头脑中明确。通过值的形式及其使用方式，编译器通常可以推断出我们想要用的类型。多种类型均有可能时，比如第二章中使用 `parse` 将 `String` 转换为数字时，必须增加类型注解，像这样：

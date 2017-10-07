@@ -1,9 +1,5 @@
 ## Graceful Shutdown 与清理
 
-> [ch20-06-graceful-shutdown-and-cleanup.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch20-06-graceful-shutdown-and-cleanup.md)
-> <br>
-> commit 2e269ff82193fd65df8a87c06561d74b51ac02f7
-
 列表 20-21 中的代码如期通过使用线程池异步的响应请求。这里有一些警告说存在一些字段并没有直接被使用，这提醒了我们并没有清理任何内容。当使用 <span class="keystroke">ctrl-C</span> 终止主线程，所有其他线程也会立刻停止，即便他们正在处理一个请求。
 
 现在我们要为 `ThreadPool` 实现 `Drop` trait 对线程池中的每一个线程调用 `join`，这样这些线程将会执行完他们的请求。接着会为 `ThreadPool` 实现一个方法来告诉线程他们应该停止接收新请求并结束。为了实践这些代码，修改 server 在 graceful Shutdown 之前只接受两个请求。

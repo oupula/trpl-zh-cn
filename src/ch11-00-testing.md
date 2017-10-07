@@ -1,9 +1,5 @@
 # 测试
 
-> [ch11-00-testing.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch11-00-testing.md)
-> <br>
-> commit 1047433147b27d19e5acc068a0ebca5782d64f99
-
 > Program testing can be a very effective way to show the presence of bugs, but it is hopelessly inadequate for showing their absence.
 >
 > Edsger W. Dijkstra, "The Humble Programmer" (1972)

@@ -1,9 +1,5 @@
 ## 引用与借用
 
-> [ch04-02-references-and-borrowing.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch04-02-references-and-borrowing.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 在上一部分的结尾处的使用元组的代码是有问题的，我们需要将 `String` 返回给调用者函数这样就可以在调用 `calculate_length` 后仍然可以使用 `String` 了，因为 `String` 先被移动到了 `calculate_length`。
 
 下面是如何定义并使用一个（新的）`calculate_length` 函数，它以一个对象的 **引用** 作为参数而不是获取值的所有权：

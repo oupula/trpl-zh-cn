@@ -1,9 +1,5 @@
 ## 函数如何工作
 
-> [ch03-03-how-functions-work.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch03-03-how-functions-work.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 函数在 Rust 代码中应用广泛。你已经见过一个语言中最重要的函数：`main` 函数，它是很多程序的入口点。你也见过了 `fn` 关键字，它用来声明新函数。
 
 Rust 代码使用 *snake case* 作为函数和变量名称的规范风格。在 snake case 中，所有字母都是小写并使用下划线分隔单词。这里是一个包含函数定义的程序的例子：

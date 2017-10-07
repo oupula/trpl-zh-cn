@@ -1,9 +1,5 @@
 ## 高级生命周期
 
-> [ch19-02-advanced-lifetimes.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch19-02-advanced-lifetimes.md)
-> <br>
-> commit d06a6a181fd61704cbf7feb55bc61d518c6469f9
-
 回顾第十章，我们学习了怎样使用生命周期参数来注解引用来帮助 Rust 理解不同引用的生命周期如何相互联系。见识到了大部分情况 Rust 允许我们省略生命周期，不过每一个引用都有一个生命周期。这里有三个生命周期的高级特征我们还未讲到：**生命周期子类型**（*lifetime subtyping*），**生命周期 bound**（*lifetime bounds*），以及**trait 对象生命周期**（*trait object lifetimes*）。
 
 ### 生命周期子类型

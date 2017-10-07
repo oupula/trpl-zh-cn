@@ -1,9 +1,5 @@
 ## 使用消息传递在线程间传送数据
 
-> [ch16-02-message-passing.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch16-02-message-passing.md)
-> <br>
-> commit da15de39eaabd50100d6fa662c653169254d9175
-
 最近人气正在上升的一个并发方式是**消息传递**（*message passing*），这里线程或 actor 通过发送包含数据的消息来沟通。这个思想来源于口号：
 
 > Do not communicate by sharing memory; instead, share memory by

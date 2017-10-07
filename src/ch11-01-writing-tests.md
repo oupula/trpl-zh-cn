@@ -1,9 +1,5 @@
 ## 编写测试
 
-> [ch11-01-writing-tests.md](https://github.com/rust-lang/book/blob/master/second-edition/src/ch11-01-writing-tests.md)
-> <br>
-> commit db08b34db5f1c78b4866b391c802344ec94ecc38
-
 测试用来验证非测试的代码是否按照期望的方式运行的 Rust 函数。测试函数体通常包括一些设置，运行需要测试的代码，接着断言其结果是我们所期望的。让我们看看 Rust 提供的专门用来编写测试的功能：`test` 属性、一些宏和 `should_panic` 属性。
 
 ### 测试函数剖析
